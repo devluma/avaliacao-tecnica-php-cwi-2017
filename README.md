@@ -16,5 +16,6 @@ Restrictions:
 -	If the value is smaller than zero, you should ignore its signal;
 -	Ignore the fact that February have 28/29 days and always consider only 28 days;  
 -	Ignore the daylight save time rules.
+
 Example:
-changeDate("01/03/2010 23:00", '+', 4000) = "04/03/2010 17:40"
+- changeDate("01/03/2010 23:00", '+', 4000) = "04/03/2010 17:40"
